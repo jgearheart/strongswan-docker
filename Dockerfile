@@ -26,7 +26,7 @@ RUN apt-get install -qy install gsutil
 
 #Configure Paths and add shell script to run okta-aws command
 COPY strongswan.sh /
-RUN chmod +x strongswan.sh
+RUN chmod +x strongswan.sh && bash strongswan.sh -i
 
 # cleanup
 RUN apt-get -qy autoremove
