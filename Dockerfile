@@ -19,7 +19,6 @@ RUN apt-get install -qy nano
 RUN apt-get install -qy tmux
 RUN apt-get install -qy wget
 RUN apt-get install -qy curl
-RUN apt-get install -qy install unzip
 RUN apt-get install -qy install gsutil
 
 
